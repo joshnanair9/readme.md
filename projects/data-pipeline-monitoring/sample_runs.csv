@@ -1,0 +1,6 @@
+pipeline_name,run_id,status,start_time,end_time,rows_processed,error_message
+customer_ingestion,run-1001,Succeeded,2026-10-13T08:00:00Z,2026-10-13T08:12:00Z,12500,
+orders_transformation,run-1002,Failed,2026-10-13T08:10:00Z,2026-10-13T08:18:00Z,0,Invalid date value in sample record
+product_dimension,run-1003,Running,2026-10-13T08:15:00Z,,3200,
+finance_export,run-1004,Completed,2026-10-13T08:20:00Z,2026-10-13T08:35:00Z,4800,
+inventory_sync,run-1005,Failed,2026-10-13T08:30:00Z,2026-10-13T08:34:00Z,0,Simulated source timeout
