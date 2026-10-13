@@ -29,37 +29,29 @@ I enjoy turning operational knowledge into reusable scripts, clear runbooks, and
 | Database | SQL, database operations, backup and restore, space management |
 | Data engineering | Data pipelines, orchestration, data validation, troubleshooting |
 | Platform operations | Environment configuration, Spark pools, access and permissions |
-| Automation | Python and scripting (portfolio projects in progress) |
+| Automation | Python CLI tooling, CSV/JSON reporting, unit testing, GitHub Actions |
 | Version control | Git, GitHub |
 
 ## 🚀 Portfolio Projects
 
-These are planned portfolio projects and will be added as they are implemented and tested with safe sample data.
+### 1. [Data Pipeline Monitoring Toolkit](projects/data-pipeline-monitoring/README.md)
+A Python CLI that analyses pipeline run history from CSV, summarizes success/failure rates and processed rows, flags failed and long-running jobs, and exports Markdown and JSON reports.
 
-### 1. SQL Database Operations Toolkit
-A collection of reusable SQL scripts for database inventory, space usage, object discovery, and operational diagnostics.
+**Tech:** Python · CSV · JSON · unittest · GitHub Actions
 
-**Planned topics:** database inventory · capacity checks · query diagnostics · operational reports
+Includes synthetic sample data, input validation, unit tests, and a CI workflow. This is a portfolio demo and is not connected to production services.
 
-### 2. Azure Synapse Environment Automation
-Documented, repeatable steps and scripts for configuring Synapse resources and validating environment readiness.
+### 2. SQL Database Operations Toolkit *(planned)*
+Reusable SQL examples for database inventory, space usage, and operational diagnostics using a safe sample environment.
 
-**Planned topics:** Spark pool configuration · permissions checklist · deployment validation · runbooks
+### 3. Azure Synapse Environment Automation *(planned)*
+Documented, repeatable setup and validation steps for Synapse resources, Spark pools, and permissions.
 
-### 3. Data Pipeline Monitoring Toolkit
-A Python utility that analyses sample pipeline execution logs, identifies failed runs, and generates a readable status summary.
+### 4. Snowflake SQL Engineering *(planned)*
+Examples of transformations, data validation, and incremental-loading patterns using synthetic datasets.
 
-**Planned topics:** failure detection · status summaries · logging · data quality checks
-
-### 4. Snowflake SQL Engineering
-Examples of analytical SQL, transformations, data validation, and incremental-loading patterns using synthetic datasets.
-
-**Planned topics:** SQL transformations · validation queries · incremental loads · performance considerations
-
-### 5. Database Backup & Restore Runbook
-A practical checklist for planning, validating, and documenting database backup and restore operations in a test environment.
-
-**Planned topics:** pre-checks · restore validation · post-restore checks · recovery documentation
+### 5. Database Backup & Restore Runbook *(planned)*
+A practical checklist for planning, validating, and documenting backup and restore operations in a test environment.
 
 ## 📚 Current Focus
 
