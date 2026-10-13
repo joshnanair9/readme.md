@@ -14,11 +14,16 @@ Building reliable data platforms through cloud engineering, SQL, operational exc
 
 ## 👩‍💻 About Me
 
-I'm a cloud and data platform professional with hands-on experience supporting database environments, configuring Azure data services, troubleshooting pipelines, and maintaining reliable production and non-production platforms.
+I'm a cloud and data platform professional with hands-on experience supporting database environments, configuring Azure data services, troubleshooting pipelines, and maintaining reliable production and non-production platforms. I also bring **1,000+ hours of remote project work** across LLM-related work, AI engineering workflows, SQL, and data platforms.
 
 My work has included Azure Synapse Analytics environment setup, Spark pool configuration, database backup and restore operations, access and permissions management, Snowflake repository configuration, SQL operations, and pipeline troubleshooting.
 
 I enjoy turning operational knowledge into reusable scripts, clear runbooks, and practical automation.
+
+## 🌐 Remote Project Experience
+
+- **1,000+ hours** of remote project work across LLM-related tasks, AI engineering workflows, SQL, and data platform activities.
+- Experience spans technical problem-solving, data-focused workflows, platform operations, and practical automation.
 
 ## 🧰 Technical Skills
 
@@ -29,6 +34,7 @@ I enjoy turning operational knowledge into reusable scripts, clear runbooks, and
 | Database | SQL, database operations, backup and restore, space management |
 | Data engineering | Data pipelines, orchestration, data validation, troubleshooting |
 | Platform operations | Environment configuration, Spark pools, access and permissions |
+| AI / LLM workflows | LLM-related project work and AI engineering workflows |
 | Automation | Python CLI tooling, CSV/JSON reporting, unit testing, GitHub Actions |
 | Version control | Git, GitHub |
 
