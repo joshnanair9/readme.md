@@ -1,0 +1,30 @@
+name: Test pipeline monitoring toolkit
+
+on:
+  push:
+    paths:
+      - "projects/data-pipeline-monitoring/**"
+      - ".github/workflows/pipeline-monitor-tests.yml"
+  pull_request:
+    paths:
+      - "projects/data-pipeline-monitoring/**"
+      - ".github/workflows/pipeline-monitor-tests.yml"
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: projects/data-pipeline-monitoring
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
+      - name: Generate sample report
+        run: python pipeline_monitor.py --input sample_runs.csv --markdown report.md --json report.json || test "$?" -eq 1
